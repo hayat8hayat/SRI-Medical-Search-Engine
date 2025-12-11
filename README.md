@@ -65,3 +65,32 @@ When you run the notebook, the system executes the following 3 stages. Here is w
 ├── Medical_Retrieval_and_Indexing.ipynb  # Main pipeline code
 ├── meta_data.json                        # Raw seed data (URLs)
 └── README.md                             # Documentation
+```
+
+---
+
+## 📂 Data Structure
+
+### Enriched Metadata (`meta_data.json`)
+After running the pipeline, the `meta_data.json` file is enriched with extracted information. This serves as the **database** for the search interface.
+
+**Example Entry:**
+```json
+{
+  "id": 1,
+  "url": "[https://base-donnees-publique.medicaments.gouv.fr/medicament/](https://base-donnees-publique.medicaments.gouv.fr/medicament/)...",
+  "nom": "AMOXICILLINE BIOGARAN 1 g",
+  "snippet": "Ce médicament est indiqué dans le traitement des infections bactériennes à germes sensibles...",
+  "image_url": "[https://placehold.co/600x400/0ea5e9/white?text=A](https://placehold.co/600x400/0ea5e9/white?text=A)",
+  "is_indexed": 1,
+  "log": "indexed"
+}
+```
+**Field Descriptions:**
+* **`id`** *(int)*: The unique primary key for the document. This matches the filename in the corpus (e.g., `id: 1` corresponds to `med_md/1.md`).
+* **`url`** *(string)*: The original source URL from *base-donnees-publique.medicaments.gouv.fr*.
+* **`nom`** *(string)*: The official medication name extracted via Regex from the notice header.
+* **`snippet`** *(string)*: A truncated version (first 200 chars) of the "Description" block, intended for displaying search result previews.
+* **`image_url`** *(string)*: A generated placeholder URL (using the first letter of the name) to be used as a thumbnail in the user interface.
+* **`is_indexed`** *(int)*: A status flag indicating indexing success (`1` = Success, `0` = Failed/Skipped).
+* **`log`** *(string)*: A message detailing the indexing status or any error encountered (e.g., "indexed", "File not found").
