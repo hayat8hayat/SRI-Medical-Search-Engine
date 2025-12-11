@@ -1,204 +1,452 @@
 [
   {
-    "nom": "Amoxicilline",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64550843/extrait#tab-notice"
+    "id": 1,
+    "nom": "AMOXICILLINE ACIDE CLAVULANIQUE ALMUS 100 mg/12,5 mg par mL ENFANTS, poudre pour suspension buvable (rapport amoxicilline/acide clavulanique : 8/1)",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64550843/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Les doses sont exprimées en quantité d’amoxicilline/acide clavulanique, sauf lorsqu’elles sont indiquées par référence à un constituant individuel. La dose d'AMOXICILLINE ACIDE CLAVULANIQUE ALMUS choisie pour traite...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=A",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Augmentin",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66053338/extrait#tab-notice"
+    "id": 2,
+    "nom": "AUGMENTIN 1 g/125 mg, poudre pour suspension buvable en sachet-dose (rapport amoxicilline/acide clavulanique : 8/1)",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66053338/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Les doses sont exprimées en quantité d’amoxicilline/acide clavulanique, sauf lorsqu’elles sont indiquées par référence à un constituant individuel. La dose d’AUGMENTIN choisie pour traiter une infection particulière...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=A",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Clamoxyl",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait#tab-notice"
+    "id": 3,
+    "nom": "CLAMOXYL 1 g, comprimé dispersible",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique - code ATC : J01CA04. Qu’est-ce que CLAMOXYL ? CLAMOXYL est un antibiotique. Le principe actif est l’amoxicilline. Celui-ci appartient à un groupe de médicaments appelés « pénicillines ». Dans quels cas CLAMOXYL est-il ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=C",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Orelox",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65528337/extrait#tab-notice"
+    "id": 4,
+    "nom": "ORELOX 100 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65528337/extrait#tab-notice",
+    "snippet": "et mode d'administration Chez l'adulte 200 mg ou 400 mg par jour en 2 prises à 12 heures d'intervalle, au cours d'un repas, soit : · 2 x 200 mg par jour, soit 2 comprimés matin et soir dans les : o Sinusites aiguës, Dans les sinusites maxillaires aig...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=O",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Pyostacine",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69494932/extrait#tab-notice"
+    "id": 5,
+    "nom": "PYOSTACINE 250 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69494932/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : Streptogramines (synergistines) - code ATC : J01FG01 Ce médicament est un antibiotique de la famille des streptogramines (synergistines). La substance active est la pristinamycine. Elle agit en tuant des bactéries res...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=P",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Zithromax",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait#tab-notice"
+    "id": 6,
+    "nom": "ZITHROMAX 250 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : Antibactériens à usage systémique - code ATC : J01FA10 Ce médicament est un antibiotique antibactérien de la famille des macrolides. Il est indiqué dans le traitement de certaines infections bactériennes à germes sens...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=Z",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Monuril",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67951706/extrait#tab-notice"
+    "id": 7,
+    "nom": "MONURIL 3 g, granulés pour solution buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67951706/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : Antibactériens à usage systémique ; AUTRES ANTIBACTERIENS - code ATC : J01XX01 MONURIL 3 g, granulés pour solution buvable en sachet contient la substance active fosfomycine (sous forme de fosfomycine trométamol). C’e...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=M",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Fucidine",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60330586/extrait#tab-notice"
+    "id": 8,
+    "nom": "FUCIDINE 2 POUR CENT, crème",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60330586/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique - code ATC : D06AX01. Ce médicament, dont la substance active est l’acide fusidique, est un antibiotique. Ce médicament est préconisé dans le traitement des infections de la peau provoquées par une bactérie appartenant ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=F",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Flagyl",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67965563/extrait#tab-notice"
+    "id": 9,
+    "nom": "FLAGYL 0,5 POUR CENT, solution injectable pour perfusion en poche",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67965563/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : antibiotique antibactérien antiparasitaire de la famille des nitro-5-imidazolés - code ATC : J01XD01 - P01AB01 Ce médicament est indiqué dans le traitement curatif de certaines infections à germes sensibles (bactéries...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=F",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Advil",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68634000/extrait#tab-notice"
+    "id": 10,
+    "nom": "ADVIL 200 mg, comprimé enrobé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68634000/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Pour atténuer les symptômes, la dose efficace la plus faible devra être utilisée pendant la durée la plus courte possible (voir rubrique 4.4). La survenue d'effets indésirables peut être minimisée par l'utilisation ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=A",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Nurofen",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait#tab-notice"
+    "id": 11,
+    "nom": "NUROFEN 200 mg, comprimé enrobé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Pour atténuer les symptômes, la dose efficace la plus faible devra être utilisée pendant la durée la plus courte possible (voir rubrique 4.4). RESERVE A L'ADULTE et L'ENFANT DE PLUS DE 20 KG (soit environ 6 ans). _A...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=N",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Antarene",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66303681/extrait#tab-notice"
+    "id": 12,
+    "nom": "ANTARENE 100 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66303681/extrait#tab-notice",
+    "snippet": "et mode d'administration Mode d'administration Voie orale. Avaler le comprimé, sans le croquer, avec un grand verre d'eau, de préférence au cours des repas. Posologie Pour atténuer les symptômes, la dose efficace la plus faible devra être utilisée pe...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=A",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Voltarene",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66691390/extrait#tab-notice"
+    "id": 13,
+    "nom": "VOLTARENE 100 mg, suppositoire",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66691390/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Les effets indésirables peuvent être minimisés en utilisant la dose efficace la plus faible pendant la durée la plus courte nécessaire au soulagement des symptômes (voir rubrique 4.4). D'une manière générale, la dos...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=V",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Apranax",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait#tab-notice"
+    "id": 14,
+    "nom": "APRANAX 275 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie La survenue d'effets indésirables peut être minimisée par l'utilisation de la dose la plus faible possible pendant la durée de traitement la plus courte nécessaire au soulagement des symptômes (voir rubrique 4.4). ·...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=A",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Célestène",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63094301/extrait#tab-notice"
+    "id": 15,
+    "nom": "40 gouttes correspondent à 1 ml de solution et à 0,5 mg de bétaméthasone.",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63094301/extrait#tab-notice",
+    "snippet": "et mode d'administration Voie orale. 40 gouttes correspondent à 1 ml de solution et à 0,5 mg de bétaméthasone. Equivalence anti-inflammatoire (équipotence) pour 5 mg de prednisone : 0,75 mg de bétaméthasone. La pipette compte-gouttes ne doit pas être...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=4",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Solupred",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63226984/extrait#tab-notice"
+    "id": 16,
+    "nom": "SOLUPRED 20 mg, comprimé orodispersible",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63226984/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie RESERVE A L’ADULTE ET A L’ENFANT DE PLUS DE 10 KG. SOLUPRED 20 mg est adapté aux traitements d'attaque ou aux traitements de courte durée nécessitant des doses moyennes ou fortes chez l'adulte et l'enfant de plus de...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=S",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Cortancyl",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait#tab-notice"
+    "id": 17,
+    "nom": "CORTANCYL 1 mg, comprimé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait#tab-notice",
+    "snippet": "et mode d'administration Voie orale Les comprimés seront avalés avec un peu d'eau, au cours du repas. RESERVE A L'ADULTE ET L'ENFANT DE PLUS DE 6 ANS CORTANCYL 1 mg est plus particulièrement adapté aux traitements d'entretien. Pour les traitements d'...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=C",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Ketum",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69159834/extrait#tab-notice"
+    "id": 18,
+    "nom": "KETUM 100 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69159834/extrait#tab-notice",
+    "snippet": "et mode d'administration Mode d'administration: Voie orale. Les comprimés sont à avaler tels quels, avec un grand verre d'eau. Posologie: Pour atténuer les symptômes, la dose efficace la plus faible devra être utilisée pendant la durée la plus courte...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=K",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Smecta",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64450063/extrait#tab-notice"
+    "id": 19,
+    "nom": "SMECTA 3 g FRAISE, poudre pour suspension buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64450063/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : AUTRES ADSORBANTS INTESTINAUX - code ATC : A07BC05 Ce médicament contient une substance active, la diosmectite. La diosmectite est une argile naturelle purifiée qui couvre la muqueuse digestive. Ce médicament est indi...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=S",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Imodium",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69522794/extrait#tab-notice"
+    "id": 20,
+    "nom": "IMODIUM 0,2 mg/mL ENFANTS, solution buvable",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69522794/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : ANTI-DIARRHEIQUE - code ATC : A07 DA 03 IMODIUM 0,2 mg/mL ENFANTS, solution buvable est un médicament anti diarrhéique. Il est indiqué chez l'enfant de 2 à 8 ans : · en complément de la réhydratation orale, dans le tr...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=I",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Vogalène",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66745607/extrait#tab-notice"
+    "id": 21,
+    "nom": "VOGALENE 0,1 %, solution buvable en flacon",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66745607/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : antiémétiques et anti-nauséeux, code ATC : A04AD05 (A : Appareil digestif et métabolisme). Ce médicament est un anti-émétique et un anti-nauséeux. Ce médicament est indiqué dans le traitement symptomatique des nausées...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=V",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Motilium",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69742865/extrait#tab-notice"
+    "id": 22,
+    "nom": "MOTILIUM 1 mg/ml, suspension buvable",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69742865/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie MOTILIUM doit être utilisé à la dose minimale efficace pour la durée la plus courte nécessaire pour contrôler les nausées et les vomissements. Il est recommandé de prendre MOTILIUM avant les repas. Si le médicament ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=M",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Gaviscon",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67557241/extrait#tab-notice"
+    "id": 23,
+    "nom": "GAVISCON MENTHE, comprimé à croquer",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67557241/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : autres médicaments pour l'ulcère peptique et le reflux gastro-œsophagien (R.G.O.). Code ATC : A02B GAVISCON MENTHE, comprimé à croquer apporte un soulagement rapide de la douleur et de la gêne occasionnées par les brû...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=G",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Debridat",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60246750/extrait#tab-notice"
+    "id": 24,
+    "nom": "DEBRIDAT 100 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60246750/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : ANTISPASMODIQUE MUSCULOTROPE – code ATC : A03AA05 Ce médicament est indiqué dans les douleurs spasmodiques de l’intestin. RESERVE A L'ADULTE. 1 comprimé de 100 mg, 3 fois par jour. Mode d'administration Voie orale. Le...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=D",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Spasfon",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64970338/extrait#tab-notice"
+    "id": 25,
+    "nom": "SPASFON LYOC 160 mg, lyophilisat oral",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64970338/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : ANTISPASMODIQUE MUSCULOTROPE - code ATC : A03AX12 (A: appareil digestif et métabolisme) (G: système génito-urinaire) SPASFON LYOC 160 mg appartient à une classe de médicaments appelés antispasmodiques. Il agit contre ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=S",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Maalox",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64216427/extrait#tab-notice"
+    "id": 26,
+    "nom": "MAALOX MAUX D’ESTOMAC HYDROXYDE D’ALUMINIUM/ HYDROXYDE DE MAGNESIUM 400 mg/ 400 mg SANS SUCRE FRUITS ROUGES, comprimé à croquer édulcoré à la saccharine sodique, au sorbitol et au maltitol",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64216427/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : Anti-acides - code ATC : A02AD01. (A : appareil digestif et métabolisme) MAALOX MAUX D’ESTOMAC contient de l’hydroxyde d’aluminium et de l’hydroxyde de magnésium. Ce médicament appartient à la famille des antiacides. ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=M",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Rennie",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait#tab-notice"
+    "id": 27,
+    "nom": "Inconnu",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Ce médicament est réservé à l’adulte et à l’enfant de plus de 15 ans. La posologie usuelle par 24 heures est de 1 à 2 comprimés à sucer ou à croquer, 2 à 3 fois par jour au moment des douleurs. Ne pas dépasser 7 com...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=I",
+    "log": "Parsing warning: Name is Inconnu or empty description",
+    "is_indexed": 1
   },
   {
-    "nom": "Mopral",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait#tab-notice"
-  },
-
-  {
-    "nom": "Inexium",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63451237/extrait#tab-notice"
-  },
-  {
-    "nom": "Meteospasmyl",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61204836/extrait#tab-notice"
+    "id": 28,
+    "nom": "MOPRAL 10 mg, gélule gastro-résistante",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Adultes Traitement des ulcères duodénaux La dose recommandée chez les patients ayant un ulcère duodénal évolutif est 20 mg de MOPRAL une fois par jour. Chez la plupart des patients, la cicatrisation survient dans le...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=M",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Debridat",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60246750/extrait#tab-notice"
+    "id": 29,
+    "nom": "INEXIUM 10 mg, granulés gastro-résistants pour suspension buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63451237/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Population pédiatrique Enfants de 1 à 11 ans de poids ≥ 10 kg Reflux gastro-œsophagien (RGO) : _Traitement de l’œsophagite érosive par reflux confirmée par endoscopie_ · Poids ³ 10 Kg et < 20 kg : 10 mg une fois par...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=I",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Bedelix",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60397122/extrait#tab-notice"
+    "id": 30,
+    "nom": "METEOSPASMYL, capsule molle",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61204836/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : ANTISPASMODIQUE MUSCULOTROPE / ANTIFLATULENT - code ATC (A: appareil digestif et métabolisme). Ce médicament est indiqué dans le traitement symptomatique des douleurs digestives avec ballonnements. RESERVE A L'ADULTE ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=M",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Efferalgan",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61574554/extrait#tab-notice"
+    "id": 31,
+    "nom": "DEBRIDAT 100 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60246750/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : ANTISPASMODIQUE MUSCULOTROPE – code ATC : A03AA05 Ce médicament est indiqué dans les douleurs spasmodiques de l’intestin. RESERVE A L'ADULTE. 1 comprimé de 100 mg, 3 fois par jour. Mode d'administration Voie orale. Le...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=D",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Dafalgan",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63264636/extrait#tab-notice"
+    "id": 32,
+    "nom": "BEDELIX, poudre pour suspension buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60397122/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : AUTRES ADSORBANTS INTESTINAUX. code ATC : A07BC05 Ce médicament agit en protégeant les parois (muqueuses) de votre estomac et de votre intestin. Ce médicament est utilisé chez l’adulte en traitement symptomatique des ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=B",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Fervex",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69738404/extrait#tab-notice"
+    "id": 33,
+    "nom": "EFFERALGAN 1000 mg, comprimé effervescent",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61574554/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Attention : cette présentation contient 1000 mg (1 g) de paracétamol par comprimé : ne pas prendre 2 comprimés à la fois. Utiliser la dose efficace la plus faible, pendant la durée la plus courte possible. Utiliser ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=E",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Ixprim",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60365078/extrait#tab-notice"
+    "id": 34,
+    "nom": "DAFALGAN 1000 mg, comprimé effervescent",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63264636/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : AUTRES ANALGESIQUES et ANTIPYRETIQUES-ANILIDES - code ATC : N02BE01. DAFALGAN 1000 mg, comprimé effervescent contient du paracétamol. Le paracétamol est un antalgique (calme la douleur) et un antipyrétique (fait baiss...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=D",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Lamaline",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62689634/extrait#tab-notice"
+    "id": 35,
+    "nom": "FERVEX ADULTES FRAMBOISE, granulés pour solution buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69738404/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : AUTRES MEDICAMENTS DU RHUME EN ASSOCIATION, code ATC : R05X Ce médicament est indiqué chez l’adulte et l’enfant (à partir de 15 ans) dans le traitement au cours des rhumes, rhinites, rhinopharyngites et des états grip...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=F",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Topalgic",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait#tab-notice"
+    "id": 36,
+    "nom": "IXPRIM 37,5 mg/325 mg, comprimé effervescent",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60365078/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie L'utilisation d’IXPRIM doit être limitée aux patients dont la douleur modérée à intense nécessite un traitement par une association de paracétamol et de chlorhydrate de tramadol. La dose devra être individuellement ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=I",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Zyrtec",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65016707/extrait#tab-notice"
+    "id": 37,
+    "nom": "8 gélules sous plaquettes thermoformées (PVC/Aluminium)",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62689634/extrait#tab-notice",
+    "snippet": "et mode d'administration RESERVE A L’ADULTE. Posologie Comme pour tous les médicaments antalgiques, la posologie de LAMALINE, gélule doit être adaptée à l’intensité de la douleur et à la réponse clinique de chaque de patient. La posologie usuelle est...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=8",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Clarityne",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67040450/extrait#tab-notice"
+    "id": 38,
+    "nom": "TOPALGIC 100 mg/2 ml, solution injectable en ampoule",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie La dose devra être adaptée à l'intensité de la douleur et à la sensibilité individuelle de chaque patient. La posologie minimale efficace doit généralement être utilisée. Le tramadol peut être injecté par voie intra...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=T",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Toplexil",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68672780/extrait#tab-notice"
+    "id": 39,
+    "nom": "ZYRTEC 10 mg/ml, solution buvable en gouttes",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65016707/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie 10 mg une fois par jour (20 gouttes). Populations particulières _Sujets âgés_ Il n’y a pas lieu d’ajuster la posologie chez le sujet âgé dont la fonction rénale est normale. _Insuffisance rénale_ Les données disponi...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=Z",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Hélicidine",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61404858/extrait#tab-notice"
+    "id": 40,
+    "nom": "CLARITYNE 10 mg, comprimé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67040450/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique ANTIHISTAMINIQUES A USAGE SYSTEMIQUE - code ATC : R06AX13 CLARITYNE 10 mg, comprimé est un médicament qui appartient à la classe des antihistaminiques. Les antihistaminiques permettent de réduire les symptômes de l'alle...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=C",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Mucomyst",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67757295/extrait#tab-notice"
+    "id": 41,
+    "nom": "TOPLEXIL 0,33 mg/ml, SANS SUCRE, solution buvable édulcorée à l’acésulfame potassique.",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68672780/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique - code ATC : R06AD08 TOPLEXIL 0,33 mg/ml SANS SUCRE, solution buvable édulcorée à l’acésulfame potassique est un antitussif appartenant à la famille des antihistaminiques de type neuroleptique phénothiazinique. Il s'opp...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=T",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Exomuc",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64896877/extrait#tab-notice"
+    "id": 42,
+    "nom": "HELICIDINE 10 POUR CENT SANS SUCRE, sirop édulcoré à la saccharine sodique et au maltitol liquide",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61404858/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique - code ATC : ANTITUSSIF d'action périphérique. (R. Système respiratoire) Ce médicament est préconisé pour calmer les toux sèches et les toux d'irritation. En l'absence d'efficacité, ne pas augmenter les doses au-delà de...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=H",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Ventoline",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait#tab-notice"
+    "id": 43,
+    "nom": "MUCOMYST 200 mg, poudre pour solution buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67757295/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : MUCOLYTIQUE, code ATC : R05CB01. Ce médicament est indiqué en cas d'affection respiratoire récente avec difficulté d'expectoration (difficulté à rejeter en crachant les sécrétions bronchiques). Cette présentation est ...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=M",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Seretide",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69505268/extrait#tab-notice"
+    "id": 44,
+    "nom": "EXOMUC 200 mg, granulés pour solution buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64896877/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique - code ATC : ACETYLCYSTEINE - MUCOLYTIQUE - code R05CB01 Ce médicament est indiqué en cas d'affection respiratoire récente avec difficulté à expectoration (difficulté à rejeter en crachant les sécrétions bronchiques). C...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=E",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Humex Rhume",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63327481/extrait#tab-notice"
+    "id": 45,
+    "nom": "VENTOLINE 0,5 mg/1 ml, solution injectable par voie sous-cutanée en ampoule.",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Adultes : 1 ampoule en injection sous-cutanée (8 µg/kg de poids corporel) à répéter si nécessaire toutes les quatre heures sous surveillance médicale. Si le soulagement habituellement obtenu n’est pas rapidement obs...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=V",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "Kardégic",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61348441/extrait#tab-notice"
+    "id": 46,
+    "nom": "Inconnu",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69505268/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Voie d’administration : voie inhalée. Il conviendra d’informer le patient que pour observer un effet optimal du traitement, SERETIDE doit être administré quotidiennement même lorsque les symptômes sont améliorés. Le...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=I",
+    "log": "Parsing warning: Name is Inconnu or empty description",
+    "is_indexed": 1
   },
   {
-    "nom": "Tahor",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63082110/extrait#tab-notice"
+    "id": 47,
+    "nom": "HUMEX RHUME DES FOINS A LA BECLOMETASONE 50 microgrammes/dose, suspension pour pulvérisation nasale en flacon",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63327481/extrait#tab-notice",
+    "snippet": "? Classe pharmacothérapeutique : Corticoïdes, code ATC : R01AD01. Ce médicament contient un corticoïde. C’est un traitement anti-inflammatoire qui s’administre par voie nasale. Ce médicament est indiqué chez l'adulte (à partir de 15 ans) dans le trai...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=H",
+    "log": "indexed",
+    "is_indexed": 1
   },
   {
-    "nom": "CARDENSIEL",
-    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63162282/extrait#tab-notice"
+    "id": 48,
+    "nom": "KARDEGIC 160 mg, poudre pour solution buvable en sachet",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61348441/extrait#tab-notice",
+    "snippet": "et mode d'administration Ce médicament ne sera administré que sur prescription médicale. Réservé à l’adulte. Voie orale. Dans les situations d’urgence _Dans les situations d’urgence cardiologique_ (phase aiguë de l’infarctus du myocarde, angor instab...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=K",
+    "log": "indexed",
+    "is_indexed": 1
+  },
+  {
+    "id": 49,
+    "nom": "TAHOR 10 mg, comprimé à croquer",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63082110/extrait#tab-notice",
+    "snippet": "et mode d'administration Posologie Avant de commencer un traitement par TAHOR, le patient doit suivre un régime alimentaire hypocholestérolémiant standard. Ce régime sera ensuite continué pendant toute la durée du traitement par TAHOR. La posologie d...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=T",
+    "log": "indexed",
+    "is_indexed": 1
+  },
+  {
+    "id": 50,
+    "nom": "CARDENSIEL 1,25 mg, comprimé pelliculé",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63162282/extrait#tab-notice",
+    "snippet": "et mode d'administration Le traitement standard de l’insuffisance cardiaque chronique est composé d’un inhibiteur de l’enzyme de conversion (ou un inhibiteur du récepteur de l’angiotensine en cas d’intolérance aux IEC), d’un bêta-bloquant, de diuréti...",
+    "image_url": "https://placehold.co/600x400/0ea5e9/white?text=C",
+    "log": "indexed",
+    "is_indexed": 1
   }
 ]
-  
