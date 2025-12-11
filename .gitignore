@@ -210,4 +210,5 @@ __marimo__/
 med_md/
 medical_docs/
 index_inverse.json
+meta_data.json
 node_modules/
