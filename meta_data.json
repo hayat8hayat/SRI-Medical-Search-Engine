@@ -1,0 +1,204 @@
+[
+  {
+    "nom": "Amoxicilline",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64550843/extrait#tab-notice"
+  },
+  {
+    "nom": "Augmentin",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66053338/extrait#tab-notice"
+  },
+  {
+    "nom": "Clamoxyl",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64539416/extrait#tab-notice"
+  },
+  {
+    "nom": "Orelox",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65528337/extrait#tab-notice"
+  },
+  {
+    "nom": "Pyostacine",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69494932/extrait#tab-notice"
+  },
+  {
+    "nom": "Zithromax",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65740799/extrait#tab-notice"
+  },
+  {
+    "nom": "Monuril",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67951706/extrait#tab-notice"
+  },
+  {
+    "nom": "Fucidine",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60330586/extrait#tab-notice"
+  },
+  {
+    "nom": "Flagyl",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67965563/extrait#tab-notice"
+  },
+  {
+    "nom": "Advil",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68634000/extrait#tab-notice"
+  },
+  {
+    "nom": "Nurofen",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60305960/extrait#tab-notice"
+  },
+  {
+    "nom": "Antarene",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66303681/extrait#tab-notice"
+  },
+  {
+    "nom": "Voltarene",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66691390/extrait#tab-notice"
+  },
+  {
+    "nom": "Apranax",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67849644/extrait#tab-notice"
+  },
+  {
+    "nom": "Célestène",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63094301/extrait#tab-notice"
+  },
+  {
+    "nom": "Solupred",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63226984/extrait#tab-notice"
+  },
+  {
+    "nom": "Cortancyl",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60118715/extrait#tab-notice"
+  },
+  {
+    "nom": "Ketum",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69159834/extrait#tab-notice"
+  },
+  {
+    "nom": "Smecta",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64450063/extrait#tab-notice"
+  },
+  {
+    "nom": "Imodium",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69522794/extrait#tab-notice"
+  },
+  {
+    "nom": "Vogalène",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66745607/extrait#tab-notice"
+  },
+  {
+    "nom": "Motilium",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69742865/extrait#tab-notice"
+  },
+  {
+    "nom": "Gaviscon",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67557241/extrait#tab-notice"
+  },
+  {
+    "nom": "Debridat",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60246750/extrait#tab-notice"
+  },
+  {
+    "nom": "Spasfon",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64970338/extrait#tab-notice"
+  },
+  {
+    "nom": "Maalox",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64216427/extrait#tab-notice"
+  },
+  {
+    "nom": "Rennie",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63674254/extrait#tab-notice"
+  },
+  {
+    "nom": "Mopral",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69606819/extrait#tab-notice"
+  },
+
+  {
+    "nom": "Inexium",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63451237/extrait#tab-notice"
+  },
+  {
+    "nom": "Meteospasmyl",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61204836/extrait#tab-notice"
+  },
+  {
+    "nom": "Debridat",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60246750/extrait#tab-notice"
+  },
+  {
+    "nom": "Bedelix",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60397122/extrait#tab-notice"
+  },
+  {
+    "nom": "Efferalgan",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61574554/extrait#tab-notice"
+  },
+  {
+    "nom": "Dafalgan",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63264636/extrait#tab-notice"
+  },
+  {
+    "nom": "Fervex",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69738404/extrait#tab-notice"
+  },
+  {
+    "nom": "Ixprim",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60365078/extrait#tab-notice"
+  },
+  {
+    "nom": "Lamaline",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62689634/extrait#tab-notice"
+  },
+  {
+    "nom": "Topalgic",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62355702/extrait#tab-notice"
+  },
+  {
+    "nom": "Zyrtec",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65016707/extrait#tab-notice"
+  },
+  {
+    "nom": "Clarityne",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67040450/extrait#tab-notice"
+  },
+  {
+    "nom": "Toplexil",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68672780/extrait#tab-notice"
+  },
+  {
+    "nom": "Hélicidine",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61404858/extrait#tab-notice"
+  },
+  {
+    "nom": "Mucomyst",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67757295/extrait#tab-notice"
+  },
+  {
+    "nom": "Exomuc",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64896877/extrait#tab-notice"
+  },
+  {
+    "nom": "Ventoline",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69077942/extrait#tab-notice"
+  },
+  {
+    "nom": "Seretide",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69505268/extrait#tab-notice"
+  },
+  {
+    "nom": "Humex Rhume",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63327481/extrait#tab-notice"
+  },
+  {
+    "nom": "Kardégic",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61348441/extrait#tab-notice"
+  },
+  {
+    "nom": "Tahor",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63082110/extrait#tab-notice"
+  },
+  {
+    "nom": "CARDENSIEL",
+    "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63162282/extrait#tab-notice"
+  }
+]
+  
