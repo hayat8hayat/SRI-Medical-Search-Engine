@@ -58,6 +58,36 @@ When you run the notebook, the system executes the following 3 stages. Here is w
     * **`meta_data.json`**: Updated again with snippets and status logs (e.g., `"is_indexed": 1`).
 
 ---
+📈 Evaluation du Système de Recherche (SRI)
+
+Après la construction du corpus et de l’index TF-IDF, le moteur de recherche a été évalué en utilisant un ensemble de requêtes représentatives et un fichier de pertinence (qrels) définissant pour chaque requête les documents considérés comme pertinents.
+
+ Étapes de l’évaluation
+
+L’évaluation suit 4 étapes simples et standard en SRI :
+
+Définition des requêtes
+Une liste de requêtes couvrant différents types de médicaments, indications et classes thérapeutiques.
+
+Définition du jeu de pertinence (qrels)
+Pour chaque requête, un ensemble de documents pertinents a été établi pour servir de référence.
+
+Exécution du moteur de recherche
+Le modèle vectoriel TF-IDF retourne pour chaque requête une liste classée de documents.
+
+Calcul des métriques
+Les performances ont été mesurées avec :
+
+Precision@5
+
+Recall@5
+
+F1-score
+
+Average Precision (AP)
+
+MAP (Mean Average Precision)
+
 
 ## 📂 Repository Structure
 
