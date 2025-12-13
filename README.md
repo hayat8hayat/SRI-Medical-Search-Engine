@@ -58,6 +58,39 @@ When you run the notebook, the system executes the following 3 stages. Here is w
     * **`meta_data.json`**: Updated again with snippets and status logs (e.g., `"is_indexed": 1`).
 
 ---
+📈 Evaluation of the Information Retrieval System (SRI)
+
+After building the corpus and generating the TF-IDF index, the search engine was evaluated using a set of representative queries and a relevance file (qrels) defining, for each query, the documents considered relevant.
+
+Evaluation Steps
+
+The evaluation follows four standard steps commonly used in Information Retrieval:
+
+1. Query Definition
+
+A list of queries was created, covering different medication types, therapeutic classes, and clinical indications.
+
+2. Relevance Judgments (qrels)
+
+For each query, a set of relevant documents was selected to serve as the ground truth for evaluation.
+
+3. Search Engine Execution
+
+The TF-IDF vector model returns, for each query, a ranked list of documents based on cosine similarity.
+
+4. Metrics Calculation
+
+System performance is computed using the following IR metrics:
+
+Precision@5
+
+Recall@5
+
+F1-score
+
+Average Precision (AP)
+
+MAP (Mean Average Precision)
 
 ## 📂 Repository Structure
 
@@ -94,3 +127,119 @@ After running the pipeline, the `meta_data.json` file is enriched with extracted
 * **`image_url`** *(string)*: A generated placeholder URL (using the first letter of the name) to be used as a thumbnail in the user interface.
 * **`is_indexed`** *(int)*: A status flag indicating indexing success (`1` = Success, `0` = Failed/Skipped).
 * **`log`** *(string)*: A message detailing the indexing status or any error encountered (e.g., "indexed", "File not found").
+
+## 📂 Backend and Frontend Contribution
+## General Description
+The backend is a REST API developed with Flask.
+It implements an information retrieval search engine based on the TF-IDF model, applied to medication leaflets.
+The system allows:
+* **loading a pre-trained TF-IDF model**
+* **textual search using cosine similarity**
+* **returning results ranked by relevance**
+* **exposing data through REST endpoints**
+
+## Backend Architecture
+* **app.py: entry point of the Flask application**
+* **ri_model/: contains the saved model files (.pkl)**
+* **med_md/: medical documents in Markdown format**
+* **meta_data.json: descriptive information about medications**
+
+**Exposed Endpoints**
+**1. API Verification**
+```
+GET /
+```
+**Response:**
+```
+{
+  "status": "running",
+  "version": "2.0.0"
+}
+```
+**2. Medication Search**
+```
+POST /api/search
+```
+**Request body:**
+```
+{
+  "query": "doliprane",
+  "top_k": 5
+}
+```
+**Response:**
+```
+{
+  "query": "doliprane",
+  "results": [
+    {
+      "id": "1",
+      "nom": "Doliprane",
+      "score": 0.87,
+      "snippet": "...",
+      "url": "https://medicaments.gouv.fr"
+    }
+  ],
+  "total_results": 5,
+  "search_time": 0.032
+}
+```
+**3. System Statistics**
+```
+GET /api/stats
+```
+**4. Complete Medication List**
+```
+GET /api/medicaments
+```
+## Running the Backend
+**Prerequisites:**
+* **Python 3.9+**
+* **pip**
+
+**Installation:**
+```
+pip install flask flask-cors nltk joblib
+```
+**Launch:**
+```
+python app.py
+```
+**The server starts on:**
+```
+http://localhost:5000
+```
+## 🎨 Frontend – React Application (User Interface)
+## General Description
+The frontend is a React application that consumes the Flask API.
+It provides a modern interface allowing users to search for medications in an intuitive way.
+**Features:**
+dynamic query input**
+* **REST API calls**
+* **display of results with relevance score**
+* **highlighting of searched terms**
+* **error handling and loading states**
+
+**Frontend / Backend Communication**
+**Called URL:**
+```
+POST http://127.0.0.1:5000/api/search
+```
+**Data is exchanged in JSON format.**
+
+**Running the Frontend**
+**Prerequisites:**
+* **Node.js 18+**
+* **npm or yarn**
+
+**Installation:**
+```
+npm install
+```
+**Launch:**
+```
+npm run dev
+```
+
+## Result
+The complete system enables efficient and relevant search within a medication database by combining an information retrieval search engine on the backend and a modern user interface on the frontend.
