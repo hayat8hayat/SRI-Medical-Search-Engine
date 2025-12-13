@@ -57,28 +57,28 @@ When you run the notebook, the system executes the following 3 stages. Here is w
     * **`index_inverse.json`**: The final search index (Tokens → Document IDs).
     * **`meta_data.json`**: Updated again with snippets and status logs (e.g., `"is_indexed": 1`).\
   
-### Stage 4: Search Engine — Vector Space Model (TF-IDF)
+
+### Stage 4 :Search Engine — Vector Space Model (TF-IDF)
 
 This is the **search component** built using TF-IDF vectors and cosine similarity.
 
----
 
-## ⚙️ 4.1 Model Construction
+#### ⚙️ 4.1 Model Construction
 
-### Load Corpus
+##### Load Corpus
 All Markdown files from `med_md/` are loaded.
 
-### Load Inverted Index
+##### Load Inverted Index
 Terms and document frequencies come from `index_inverse.json`.
 
-### Compute IDF
+##### Compute IDF
 IDF(t) = log10( N / DF(t) )
 
-### Compute TF-IDF
+##### Compute TF-IDF
 For each document:
 TF-IDF = TF × IDF
 
-### Model Export
+##### Model Export
 Stored in `ri_model/`:
 
 tfidf_vectors.pkl
@@ -87,9 +87,9 @@ inverted_index.pkl
 vocab.pkl
 
 
----
 
-## 🧠 4.2 Query Processing
+
+#### 🧠 4.2 Query Processing
 A user query is:
 
 1. Lowercased  
@@ -98,18 +98,18 @@ A user query is:
 4. Stop-words removed  
 5. Converted to TF-IDF vector  
 
----
 
-## 🎯 4.3 Ranking via Cosine Similarity
+
+#### 🎯 4.3 Ranking via Cosine Similarity
 Similarity between query vector **q** and document vector **d**:
 
 cos(q, d)
 
 Scores ∈ [0, 1].
 
----
 
-## 🔎 4.4 Search Function
+
+#### 🔎 4.4 Search Function
 
 Example:
 
@@ -123,9 +123,8 @@ results = search("amoxicilline", top_k=5)
     "snippet": "...amoxicilline est indiquée dans le traitement..."
   }
 ]
-
----
-📈 Evaluation of the Information Retrieval System (SRI)
+```
+### Stage 5:Evaluation of the Information Retrieval System (SRI)
 
 After building the corpus and generating the TF-IDF index, the search engine was evaluated using a set of representative queries and a relevance file (qrels) defining, for each query, the documents considered relevant.
 
