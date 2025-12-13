@@ -95,9 +95,19 @@ MAP (Mean Average Precision)
 ## 📂 Repository Structure
 
 ```text
-├── Medical_Retrieval_and_Indexing.ipynb  # Main pipeline code
-├── meta_data.json                        # Raw seed data (URLs)
-└── README.md                             # Documentation
+├── Medical_Retrieval_and_Indexing.ipynb
+├── meta_data.json
+├── med_md/
+│   ├── 1.md
+│   ├── 2.md
+│   └── ...
+├── index_inverse.json
+└── ri_model/
+    ├── tfidf_vectors.pkl
+    ├── idf.pkl
+    ├── inverted_index.pkl
+    └── vocab.pkl
+
 ```
 
 ---
