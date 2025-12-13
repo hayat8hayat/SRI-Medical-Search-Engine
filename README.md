@@ -58,25 +58,29 @@ When you run the notebook, the system executes the following 3 stages. Here is w
     * **`meta_data.json`**: Updated again with snippets and status logs (e.g., `"is_indexed": 1`).
 
 ---
-📈 Evaluation du Système de Recherche (SRI)
+📈 Evaluation of the Information Retrieval System (SRI)
 
-Après la construction du corpus et de l’index TF-IDF, le moteur de recherche a été évalué en utilisant un ensemble de requêtes représentatives et un fichier de pertinence (qrels) définissant pour chaque requête les documents considérés comme pertinents.
+After building the corpus and generating the TF-IDF index, the search engine was evaluated using a set of representative queries and a relevance file (qrels) defining, for each query, the documents considered relevant.
 
- Étapes de l’évaluation
+Evaluation Steps
 
-L’évaluation suit 4 étapes simples et standard en SRI :
+The evaluation follows four standard steps commonly used in Information Retrieval:
 
-Définition des requêtes
-Une liste de requêtes couvrant différents types de médicaments, indications et classes thérapeutiques.
+1. Query Definition
 
-Définition du jeu de pertinence (qrels)
-Pour chaque requête, un ensemble de documents pertinents a été établi pour servir de référence.
+A list of queries was created, covering different medication types, therapeutic classes, and clinical indications.
 
-Exécution du moteur de recherche
-Le modèle vectoriel TF-IDF retourne pour chaque requête une liste classée de documents.
+2. Relevance Judgments (qrels)
 
-Calcul des métriques
-Les performances ont été mesurées avec :
+For each query, a set of relevant documents was selected to serve as the ground truth for evaluation.
+
+3. Search Engine Execution
+
+The TF-IDF vector model returns, for each query, a ranked list of documents based on cosine similarity.
+
+4. Metrics Calculation
+
+System performance is computed using the following IR metrics:
 
 Precision@5
 
@@ -87,7 +91,6 @@ F1-score
 Average Precision (AP)
 
 MAP (Mean Average Precision)
-
 
 ## 📂 Repository Structure
 
