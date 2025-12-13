@@ -149,7 +149,7 @@ const MedicineSearchApp = () => {
           </div>
         )}
 
-        {/* Nombre de resultats */}
+        {/* Nombre de resultat */}
         {showResults && results.length > 0 && !isSearching && (
           <div className="text-sm text-gray-400 mb-4">
             Environ {results.length} résultat{results.length > 1 ? 's' : ''}
