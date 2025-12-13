@@ -33,11 +33,11 @@ except:
 
 french_stopwords = set(stopwords.words("french"))
 
-# ✅ AJOUT : Afficher les stopwords pour vérification
-print(f"📋 Nombre de stopwords français chargés: {len(french_stopwords)}")
-print(f"📋 Exemples de stopwords: {list(french_stopwords)[:20]}")
 
-# Variables globales
+print(f"Nombre de stopwords français chargés: {len(french_stopwords)}")
+print(f"Exemples de stopwords: {list(french_stopwords)[:20]}")
+
+
 inverted_index = {}
 idf = {}
 tfidf_vectors = {}
@@ -77,24 +77,24 @@ def initialize_search_engine():
     """Initialise le moteur de recherche avec le modèle sauvegardé"""
     global inverted_index, idf, tfidf_vectors, documents, medicaments_data, medicaments_by_id
     
-    print("🔄 Initialisation du moteur de recherche...")
+    print("Initialisation du moteur de recherche...")
     
-    # ✅ CHARGER LE MODÈLE DEPUIS LES FICHIERS .PKL
+   
     tfidf_path = os.path.join(MODEL_FOLDER, "tfidf_vectors.pkl")
     idf_path = os.path.join(MODEL_FOLDER, "idf.pkl")
     index_path = os.path.join(MODEL_FOLDER, "inverted_index.pkl")
     
     if os.path.exists(tfidf_path) and os.path.exists(idf_path) and os.path.exists(index_path):
-        print("📦 Chargement du modèle sauvegardé...")
+        print("Chargement du modèle sauvegardé...")
         tfidf_vectors = joblib.load(tfidf_path)
         idf = joblib.load(idf_path)
         inverted_index = joblib.load(index_path)
-        print(f"✅ Modèle chargé depuis {MODEL_FOLDER}")
+        print(f"Modèle chargé depuis {MODEL_FOLDER}")
         print(f"   - {len(tfidf_vectors)} vecteurs TF-IDF")
         print(f"   - {len(idf)} termes IDF")
         print(f"   - {len(inverted_index)} termes dans l'index")
     else:
-        print("⚠️  Fichiers .pkl non trouvés, impossible de charger le modèle")
+        print("Fichiers .pkl non trouvés, impossible de charger le modèle")
         print(f"   Vérifiez que ces fichiers existent :")
         print(f"   - {tfidf_path}")
         print(f"   - {idf_path}")
@@ -103,11 +103,11 @@ def initialize_search_engine():
     
     # Charger les documents (pour les snippets)
     documents = load_documents(DOCS_FOLDER)
-    print(f"✅ Documents chargés : {len(documents)}")
+    print(f"Documents chargés : {len(documents)}")
     
     # Charger les données des médicaments
     medicaments_data = load_medicaments_data(MEDICAMENTS_JSON_PATH)
-    print(f"✅ Données médicaments chargées : {len(medicaments_data)}")
+    print(f"Données médicaments chargées : {len(medicaments_data)}")
     
     # Créer un mapping id -> medicament
     for med in medicaments_data:
@@ -115,7 +115,7 @@ def initialize_search_engine():
         if med_id:
             medicaments_by_id[str(med_id)] = med
     
-    print("✅ Moteur de recherche initialisé\n")
+    print("Moteur de recherche initialisé\n")
     return True
 
 
@@ -140,9 +140,9 @@ def build_query_vector(query: str) -> dict:
     query = clean_text(query)
     tokens = [t for t in query.split() if t and t not in french_stopwords]
     
-    # ✅ AJOUT : Log pour debugging
-    print(f"🔍 Requête nettoyée: '{query}'")
-    print(f"🔍 Tokens après stopwords: {tokens}")
+   
+    print(f"Requête nettoyée: '{query}'")
+    print(f"Tokens après stopwords: {tokens}")
     
     # Calculer TF pour la requête
     tf_query = defaultdict(int)
@@ -155,9 +155,9 @@ def build_query_vector(query: str) -> dict:
         if term in idf:
             q_vec[term] = tf * idf[term]
         else:
-            print(f"⚠️  Terme '{term}' absent de l'index IDF")
+            print(f"Terme '{term}' absent de l'index IDF")
     
-    print(f"✅ Vecteur requête: {len(q_vec)} termes")
+    print(f"Vecteur requête: {len(q_vec)} termes")
     return q_vec
 
 
@@ -179,13 +179,11 @@ def search_engine(query: str, top_k: int = 10, min_score: float = 0.0):
     scores = {}
     for doc_id, d_vec in tfidf_vectors.items():
         score = cosine_similarity_dict(q_vec, d_vec)
-        # ✅ Pas de filtrage par min_score, comme dans Colab
         scores[doc_id] = score
     
     # Trier par score décroissant
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     
-    # ✅ MODIFICATION PRINCIPALE : Prendre exactement top_k documents
     # Sans déduplication complexe, juste les top_k premiers
     top_docs = ranked[:top_k]
     
@@ -193,7 +191,6 @@ def search_engine(query: str, top_k: int = 10, min_score: float = 0.0):
     results = []
     
     for doc_id, score in top_docs:
-        # ✅ Récupérer les infos sans filtrage supplémentaire
         med_id = extract_id_from_filename(doc_id)
         med_info = medicaments_by_id.get(med_id)
         
@@ -215,8 +212,7 @@ def search_engine(query: str, top_k: int = 10, min_score: float = 0.0):
         results.append(result)
     
     search_time = time.time() - start_time
-    
-    # ✅ Log pour debugging
+   
     print(f"🔍 Query: '{query}' → {len(results)} résultats")
     print(f"   Top 5: {[r['doc_id'] for r in results[:5]]}")
     
@@ -265,7 +261,7 @@ def search():
         })
     
     except Exception as e:
-        print(f"❌ Erreur de recherche: {str(e)}")
+        print(f"Erreur de recherche: {str(e)}")
         return jsonify({"error": str(e)}), 500
 
 
@@ -298,18 +294,18 @@ if __name__ == '__main__':
     success = initialize_search_engine()
     
     if not success:
-        print("❌ Échec de l'initialisation du moteur de recherche")
+        print("Échec de l'initialisation du moteur de recherche")
         print("   Vérifiez que le dossier ri_model contient les fichiers .pkl")
         exit(1)
     
     # Démarrer le serveur Flask
     print("=" * 60)
-    print("✅ Serveur Flask démarré")
-    print(f"   🌐 http://localhost:5000")
-    print(f"   🌐 http://127.0.0.1:5000")
-    print(f"📊 {len(medicaments_data)} médicaments chargés")
-    print(f"📚 {len(tfidf_vectors)} documents indexés")
-    print(f"🔍 {len(inverted_index)} termes dans l'index")
+    print("Serveur Flask démarré")
+    print(f"    http://localhost:5000")
+    print(f"    http://127.0.0.1:5000")
+    print(f" {len(medicaments_data)} médicaments chargés")
+    print(f" {len(tfidf_vectors)} documents indexés")
+    print(f" {len(inverted_index)} termes dans l'index")
     print("=" * 60 + "\n")
     
     app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)
